@@ -116,7 +116,7 @@ private:
 		//Swap indexes.
 		//returns 1 if index one is out of range, 2 if index two is out of
 		//range, 3 if indexes are equal, 0 on success
-		int operator <<= (Handle )
+		int operator <<= (Handle RightHandOperand)
 		{
 			unsigned int indexOne = (unsigned)BaseHandlePtr->IndexOne;
 			unsigned int indexTwo = (unsigned)BaseHandlePtr->IndexTwo;
